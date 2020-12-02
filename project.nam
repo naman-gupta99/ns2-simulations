@@ -5,6 +5,8 @@ n -t 0 -s 3 -S DLABEL -l "server 2" -L ""
 n -t 0 -s 4 -S DLABEL -l "client 1" -L ""
 n -t 0 -s 5 -S DLABEL -l "client 2" -L ""
 n -t 0 -s 6 -S DLABEL -l "attacker" -L ""
+n -t 0 -s 7 -S DLABEL -l "encrypted node 1" -L ""
+n -t 0 -s 8 -S DLABEL -l "encrypted node 2" -L ""
 V -t * -v 1.0a5 -a 0
 A -t * -n 1 -p 0 -o 0x7fffffff -c 30 -a 1
 A -t * -h 1 -m 1073741823 -s 0

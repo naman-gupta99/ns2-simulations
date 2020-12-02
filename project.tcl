@@ -191,7 +191,9 @@ set node0 [$ns node]
 set node1 [$ns node]
 
 $node0 color violet
+$node0 label "encrypted node 1"
 $node1 color violet
+$node1 label "encrypted node 2"
 
 # Connection
 $ns duplex-link $node0 $node1 0.7Mb 100ms DropTail
